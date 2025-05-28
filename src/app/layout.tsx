@@ -13,11 +13,8 @@ export default async function RootLayout({children}: {children: React.ReactNode}
   return (
     <html lang="en">
       <body>
-        <header className="">
-          <Link href="/">react-next-testing-best-practices</Link>
-        </header>
+        <header />
         {children}
-        <footer className="">react-next-testing-best-practices</footer>
       </body>
     </html>
   );
