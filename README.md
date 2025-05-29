@@ -6,6 +6,39 @@ This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScri
 
 > **Note:** Since tests can be co-located alongside other files inside the App Router, we have placed those tests in `app/` to demonstrate this behavior (which is different than `pages/`). You can still place all tests in `__tests__` if you prefer.
 
+## Testing Strategy
+
+This project implements a comprehensive testing strategy with the following types of tests:
+
+### 1. Unit Tests
+- Hooks
+- Utility functions
+- Small components
+- Business logic
+
+### 2. Integration Tests
+- Component + Hook interactions
+- Form submissions
+- State management
+- Component composition
+
+### 3. API Tests
+- Endpoint validation
+- Response structure
+- Error handling
+- Data contracts
+
+### 4. E2E Tests
+- Critical user flows
+- Main happy paths
+- Error scenarios
+
+### 5. Additional Test Types
+- Snapshot tests for UI components
+- Performance tests for critical operations
+- Accessibility tests
+- Visual regression tests
+
 ## Deploy your own
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-jest&project-name=with-jest&repository-name=with-jest)
